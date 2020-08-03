@@ -143,7 +143,7 @@
             <datasources>
                 <!-- ##DATASOURCES## -->
                 <datasource jndi-name="java:jboss/PostgresDS" pool-name="PostgresDS">
-                    <connection-url>jdbc:postgresql://postgres:5432/postgres</connection-url>
+                    <connection-url>jdbc:postgresql://postgresql:5432/postgres</connection-url>
                     <connection-property name="socketTimeout">
                         310
                     </connection-property>

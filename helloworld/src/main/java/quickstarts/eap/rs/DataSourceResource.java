@@ -13,7 +13,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-//@Path("datasource")
+@Path("datasource")
 public class DataSourceResource {
 
     private static final Logger LOG = LoggerFactory.getLogger(DataSourceResource.class);

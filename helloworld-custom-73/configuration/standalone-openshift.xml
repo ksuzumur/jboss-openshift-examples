@@ -418,10 +418,10 @@
             <stacks>
                 <stack name="tcp">
                     <transport type="TCP" socket-binding="jgroups-tcp"/>
-<!--                    <protocol type="dns.DNS_PING">
+                    <protocol type="dns.DNS_PING">
                         <property name="dns_query">eap-app-ping</property>
                         <property name="async_discovery_use_separate_thread_per_request">true</property>
-                    </protocol>-->
+                    </protocol>
                     <protocol type="MERGE3"/>
                     <protocol type="FD_SOCK"/>
                     <protocol type="FD_ALL"/>
@@ -429,11 +429,12 @@
                     <protocol type="pbcast.NAKACK2"/>
                     <protocol type="UNICAST3"/>
                     <protocol type="pbcast.STABLE"/>
-                    <auth-protocol type="AUTH">
+<!--                    <auth-protocol type="AUTH">
                         <digest-token algorithm="SHA-512">
                             <shared-secret-reference clear-text="t1ePS6jh"/>
                         </digest-token>
                     </auth-protocol>
+-->
                     <protocol type="pbcast.GMS"/>
                     <protocol type="MFC"/>
                     <protocol type="FRAG3"/>
